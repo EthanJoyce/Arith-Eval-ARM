@@ -2,6 +2,6 @@
 Simple library for ARM microprocessors designed to evaluate arithmetic expressions provided as strings
 
 ### Building
-'cmake .'
-'make'
+`$ cmake .`
+`$ make`
 Done.
