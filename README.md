@@ -3,5 +3,7 @@ Simple library for ARM microprocessors designed to evaluate arithmetic expressio
 
 ### Building
 `$ cmake .`
+
 `$ make`
+
 Done.
