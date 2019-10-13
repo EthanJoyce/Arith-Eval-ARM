@@ -62,8 +62,6 @@ double evaluate_expression(const char *expression) {
             total_value *= second_operand.operand;
         else if (operator.operation == DIVIDE)
             total_value /= second_operand.operand;
-        
-        printf("Totalval: %f\n", total_value);
     }
     while (current_point < strlen(expression) - 1);
 
@@ -71,8 +69,6 @@ double evaluate_expression(const char *expression) {
 }
 
 struct parse_results parse_string(const char *expression, int startPos) {
-    printf("startPos: %d\n", startPos);
-    
     struct parse_results results = {  };
     
     char c = expression[startPos];
