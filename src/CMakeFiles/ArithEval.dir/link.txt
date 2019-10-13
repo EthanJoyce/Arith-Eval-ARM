@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/ArithEval.dir/arith_eval.c.o  -o ArithEval 

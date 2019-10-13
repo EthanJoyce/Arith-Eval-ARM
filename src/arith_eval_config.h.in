@@ -1,0 +1,2 @@
+#define ArithEval_VERSION_MAJOR @ArithEval_VERSION_MAJOR@
+#define ArithEval_VERSION_MINOR @ArithEval_VERSION_MINOR@
